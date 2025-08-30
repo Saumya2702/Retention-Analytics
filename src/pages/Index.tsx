@@ -35,9 +35,8 @@ const Index = () => {
             Advanced Customer Retention & Cohort Analysis
           </h2>
           <p className="text-xl text-muted-foreground mb-8 leading-relaxed">
-            This project demonstrates advanced SQL for cohort retention, churn, and customer value analysis 
-            on e-commerce data using Supabase. It highlights how business insights can be derived directly 
-            from SQL queries with beautiful data visualizations.
+            This app demonstrates SQL-driven Customer Cohort & Retention Analysis on Supabase data, 
+            highlighting insights like retention, churn, and high-value customers for an e-commerce business.
           </p>
           <div className="flex items-center justify-center space-x-4">
             <Link to="/dashboard">
