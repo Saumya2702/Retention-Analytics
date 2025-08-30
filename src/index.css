@@ -2,39 +2,58 @@
 @tailwind components;
 @tailwind utilities;
 
-/* Definition of the design system. All colors, gradients, fonts, etc should be defined here. 
-All colors MUST be HSL.
-*/
+/* Analytics Dashboard Design System - Professional data visualization theme */
 
 @layer base {
   :root {
-    --background: 0 0% 100%;
-    --foreground: 222.2 84% 4.9%;
+    /* Core theme - Deep professional blues */
+    --background: 220 13% 97%;
+    --foreground: 220 9% 15%;
 
     --card: 0 0% 100%;
-    --card-foreground: 222.2 84% 4.9%;
+    --card-foreground: 220 9% 15%;
 
     --popover: 0 0% 100%;
-    --popover-foreground: 222.2 84% 4.9%;
+    --popover-foreground: 220 9% 15%;
 
-    --primary: 222.2 47.4% 11.2%;
+    /* Primary - Deep blue for analytics */
+    --primary: 221 83% 53%;
     --primary-foreground: 210 40% 98%;
+    --primary-glow: 221 83% 65%;
 
-    --secondary: 210 40% 96.1%;
-    --secondary-foreground: 222.2 47.4% 11.2%;
+    /* Secondary - Subtle grays */
+    --secondary: 220 14% 96%;
+    --secondary-foreground: 220 9% 15%;
 
-    --muted: 210 40% 96.1%;
-    --muted-foreground: 215.4 16.3% 46.9%;
+    /* Muted elements */
+    --muted: 220 14% 96%;
+    --muted-foreground: 220 9% 46%;
 
-    --accent: 210 40% 96.1%;
-    --accent-foreground: 222.2 47.4% 11.2%;
+    /* Accent - Analytics accent */
+    --accent: 142 76% 36%;
+    --accent-foreground: 355 7% 97%;
 
-    --destructive: 0 84.2% 60.2%;
+    /* Status colors */
+    --destructive: 0 84% 60%;
     --destructive-foreground: 210 40% 98%;
+    
+    --success: 142 76% 36%;
+    --success-foreground: 355 7% 97%;
+    
+    --warning: 48 96% 53%;
+    --warning-foreground: 26 83% 14%;
 
-    --border: 214.3 31.8% 91.4%;
-    --input: 214.3 31.8% 91.4%;
-    --ring: 222.2 84% 4.9%;
+    /* Chart colors */
+    --chart-1: 221 83% 53%;
+    --chart-2: 142 76% 36%;
+    --chart-3: 262 83% 58%;
+    --chart-4: 48 96% 53%;
+    --chart-5: 0 84% 60%;
+
+    /* Interface elements */
+    --border: 220 13% 91%;
+    --input: 220 13% 91%;
+    --ring: 221 83% 53%;
 
     --radius: 0.5rem;
 
