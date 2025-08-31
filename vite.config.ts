@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 import { defineConfig } from "vite";
 import react from "@vitejs/plugin-react-swc";
 import path from "path";
@@ -21,7 +21,6 @@ export default defineConfig(({ mode }) => ({
     },
   },
 }));
-=======
 import { defineConfig } from "vite";
 import react from "@vitejs/plugin-react-swc";
 import path from "path";
@@ -44,4 +43,3 @@ export default defineConfig(({ mode }) => ({
     },
   },
 }));
->>>>>>> c202deee64a173be04b38465b789d776181c2fe9
