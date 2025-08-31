@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 import type { Config } from "tailwindcss";
 
 export default {
@@ -111,7 +110,6 @@ export default {
 	},
 	plugins: [require("tailwindcss-animate")],
 } satisfies Config;
-=======
 import type { Config } from "tailwindcss";
 
 export default {
@@ -224,4 +222,4 @@ export default {
 	},
 	plugins: [require("tailwindcss-animate")],
 } satisfies Config;
->>>>>>> c202deee64a173be04b38465b789d776181c2fe9
+
