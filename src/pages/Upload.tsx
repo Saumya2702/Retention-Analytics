@@ -46,24 +46,12 @@ const Upload = () => {
               <Link to="/dashboard">
                 <Button variant="outline">View Dashboard</Button>
               </Link>
-              <Badge variant="outline" className="bg-primary/5">
-                <Database className="mr-1 h-3 w-3" />
-                Connect Supabase to enable uploads
-              </Badge>
             </div>
           </div>
         </div>
       </header>
 
       <div className="container mx-auto px-6 py-8">
-        {/* Supabase Connection Alert */}
-        <Alert className="mb-8 border-primary/20 bg-primary/5">
-          <Database className="h-4 w-4" />
-          <AlertDescription>
-            <strong>Supabase Integration Required:</strong> To enable CSV uploads and database operations, 
-            click the green Supabase button in the top right and connect your Supabase project.
-          </AlertDescription>
-        </Alert>
 
         <div className="grid gap-8">
           {/* Upload Instructions */}
@@ -244,49 +232,6 @@ const Upload = () => {
                     </div>
                   </div>
                   <Badge variant="outline">Pending</Badge>
-                </div>
-              </div>
-            </CardContent>
-          </Card>
-
-          {/* Next Steps */}
-          <Card className="bg-primary/5 border-primary/20">
-            <CardHeader>
-              <CardTitle>Next Steps</CardTitle>
-              <CardDescription>
-                After uploading your data, explore the analytics dashboard
-              </CardDescription>
-            </CardHeader>
-            <CardContent>
-              <div className="space-y-4">
-                <div className="flex items-start space-x-3">
-                  <div className="h-6 w-6 rounded-full bg-primary text-primary-foreground flex items-center justify-center text-xs font-medium">1</div>
-                  <div>
-                    <p className="font-medium">Connect Supabase</p>
-                    <p className="text-sm text-muted-foreground">Enable backend functionality for data processing</p>
-                  </div>
-                </div>
-                <div className="flex items-start space-x-3">
-                  <div className="h-6 w-6 rounded-full bg-primary text-primary-foreground flex items-center justify-center text-xs font-medium">2</div>
-                  <div>
-                    <p className="font-medium">Upload CSV Files</p>
-                    <p className="text-sm text-muted-foreground">Import your users and orders data</p>
-                  </div>
-                </div>
-                <div className="flex items-start space-x-3">
-                  <div className="h-6 w-6 rounded-full bg-primary text-primary-foreground flex items-center justify-center text-xs font-medium">3</div>
-                  <div>
-                    <p className="font-medium">Explore Analytics</p>
-                    <p className="text-sm text-muted-foreground">View cohort analysis, retention heatmaps, and more</p>
-                  </div>
-                </div>
-                <div className="pt-4">
-                  <Link to="/dashboard">
-                    <Button>
-                      <BarChart3 className="mr-2 h-4 w-4" />
-                      Go to Dashboard
-                    </Button>
-                  </Link>
                 </div>
               </div>
             </CardContent>
