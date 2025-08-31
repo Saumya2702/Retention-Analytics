@@ -1,4 +1,5 @@
 📊 Customer Cohort & Retention Analysis
+
 📌 Project Overview
 It is built with Supabase (PostgreSQL) as the backend and a react front-end to display results as interactive dashboards.
 
@@ -70,3 +71,4 @@ Frontend: React, TailwindCSS
 Visualization: Interactive tables, bar/line/heatmap charts
 
 Languages: SQL, JavaScript 
+
