@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 {
   "$schema": "https://ui.shadcn.com/schema.json",
   "style": "default",
@@ -18,7 +18,7 @@
     "lib": "@/lib",
     "hooks": "@/hooks"
   }
-=======
+
 {
   "$schema": "https://ui.shadcn.com/schema.json",
   "style": "default",
@@ -38,5 +38,4 @@
     "lib": "@/lib",
     "hooks": "@/hooks"
   }
->>>>>>> c202deee64a173be04b38465b789d776181c2fe9
 }
